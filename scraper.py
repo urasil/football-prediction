@@ -221,7 +221,7 @@ def generate_season_urls():
     
     for year in range(2017, 2025):  
         season_start = str(year)
-        season_end = str(year + 1)[-2:] 
+        season_end = str(year + 1)  
         url = base_url.format(
             season_start, season_end,
             season_start, season_end
