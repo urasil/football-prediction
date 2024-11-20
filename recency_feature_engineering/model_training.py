@@ -11,7 +11,7 @@ class RecencyModelTraining:
 
     def evaluate(self, X, y):
         predictions = self.model.predict(X)
-        rmse = root_mean_squared_error(y, predictions, squared=False)
+        rmse = root_mean_squared_error(y, predictions)
         return rmse
 
     def save_model(self, filename):

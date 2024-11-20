@@ -5,7 +5,7 @@ class RecencyFeatures:
     def __init__(self, max_x=5):
         self.max_x = max_x
         general = GeneralFeatures()
-        self.df = general.get_df_with_features.sort_values(by='Date')
+        self.df = general.get_df_with_features().sort_values(by='Date')
 
     def avg_stats_last_x_games(self):
     
