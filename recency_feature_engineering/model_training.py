@@ -76,6 +76,8 @@ class RecencyModelTraining:
         metrics = {
             'train_accuracy': [],
             'test_accuracy': [],
+            'train_rmse': [],
+            'test_rmse': [],
             'train_precision': [],
             'test_precision': [],
             'train_recall': [],
@@ -98,6 +100,9 @@ class RecencyModelTraining:
             test_accuracy = accuracy_score(y_test, test_predictions)
             metrics['train_accuracy'].append(train_accuracy)
             metrics['test_accuracy'].append(test_accuracy)
+
+            metrics['train_rmse'].append(np.sqrt(np.mean((y_train - train_predictions) ** 2)))
+            metrics['test_rmse'].append(np.sqrt(np.mean((y_test - test_predictions) ** 2)))
 
             # Precision, Recall, F1
             train_precision, train_recall, train_f1, _ = precision_recall_fscore_support(
@@ -122,6 +127,7 @@ class RecencyModelTraining:
 
         plt.figure(figsize=(15, 10))
         for i, key in enumerate(metric_keys, 1):
+
             plt.subplot((n_metrics + 1) // 2, 2, i)
             plt.plot(neighbors_range, metrics[key], label=key, marker='o')
 
@@ -150,7 +156,7 @@ class RecencyModelTraining:
 
             for x, y in zip(iterations, metrics[key]):
                 plt.text(
-                    x, y, f'{y:.2f}', fontsize=7, ha='center', va='bottom'
+                    x, y, f'{y:.3f}', fontsize=7, ha='center', va='bottom'
                 )
 
             plt.xlabel('Iterations')
