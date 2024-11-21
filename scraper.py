@@ -59,10 +59,7 @@ def extract_team_stats(soup, team_id):
     stats['touches_def_3rd'] = safe_extract(possession_footer, 'touches_def_3rd')
     stats['touches_mid_3rd'] = safe_extract(possession_footer, 'touches_mid_3rd')
     stats['touches_att_3rd'] = safe_extract(possession_footer, 'touches_att_3rd')
-    stats['touches_def_pen'] = safe_extract(possession_footer, 'touches_def_pen')
-    stats['touches_att_pen'] = safe_extract(possession_footer, 'touches_att_pen')
     stats['carries'] = safe_extract(possession_footer, 'carries')
-    stats['carries_total_distance'] = safe_extract(possession_footer, 'carries_total_distance')
     stats['carries_progressive_distance'] = safe_extract(possession_footer, 'carries_progressive_distance')
 
     return stats
@@ -219,7 +216,7 @@ def generate_season_urls():
     base_url = "https://fbref.com/en/comps/9/{}-{}/schedule/{}-{}-Premier-League-Scores-and-Fixtures"
     seasons = []
     
-    for year in range(2017, 2025):  
+    for year in range(2017, 2019):  
         season_start = str(year)
         season_end = str(year + 1)  
         url = base_url.format(
