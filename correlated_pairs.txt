@@ -1,0 +1,68 @@
+                               Feature1                           Feature2  Correlation
+696                     Home Possession                    Away Possession    -0.999993
+697                     Home Possession              Home Passes Completed     0.902914 x
+699                     Home Possession            Home Progressive Passes     0.827585
+700                     Home Possession  Home Progressive Passing Distance     0.837900 x
+706                     Home Possession                       Home Touches     0.924598 x
+708                     Home Possession               Home Touches Mid 3rd     0.851093 x
+710                     Home Possession                       Home Carries     0.852834 x
+711                     Home Possession  Home Carries Progressive Distance     0.836951
+714                     Home Possession              Away Passes Completed    -0.902633
+716                     Home Possession            Away Progressive Passes    -0.823948
+717                     Home Possession  Away Progressive Passing Distance    -0.828049
+723                     Home Possession                       Away Touches    -0.924859
+725                     Home Possession               Away Touches Mid 3rd    -0.866168
+727                     Home Possession                       Away Carries    -0.854960
+728                     Home Possession  Away Carries Progressive Distance    -0.816298
+731                     Away Possession              Home Passes Completed    -0.902921
+733                     Away Possession            Home Progressive Passes    -0.827564
+734                     Away Possession  Home Progressive Passing Distance    -0.837857
+740                     Away Possession                       Home Touches    -0.924605
+742                     Away Possession               Home Touches Mid 3rd    -0.851107
+744                     Away Possession                       Home Carries    -0.852843
+745                     Away Possession  Home Carries Progressive Distance    -0.836965
+748                     Away Possession              Away Passes Completed     0.902642
+750                     Away Possession            Away Progressive Passes     0.823947 x
+751                     Away Possession  Away Progressive Passing Distance     0.828102
+757                     Away Possession                       Away Touches     0.924870
+759                     Away Possession               Away Touches Mid 3rd     0.866184
+761                     Away Possession                       Away Carries     0.854944
+762                     Away Possession  Away Carries Progressive Distance     0.816259
+765               Home Passes Completed                    Home Passes PCT     0.885098
+766               Home Passes Completed            Home Progressive Passes     0.802068
+767               Home Passes Completed  Home Progressive Passing Distance     0.856694
+773               Home Passes Completed                       Home Touches     0.983077
+775               Home Passes Completed               Home Touches Mid 3rd     0.919673
+777               Home Passes Completed                       Home Carries     0.941185
+778               Home Passes Completed  Home Carries Progressive Distance     0.876040
+805                     Home Passes PCT                       Home Touches     0.818742
+809                     Home Passes PCT                       Home Carries     0.836956
+836             Home Progressive Passes                       Home Touches     0.819529
+839             Home Progressive Passes               Home Touches Att 3rd     0.869834
+841             Home Progressive Passes  Home Carries Progressive Distance     0.805736
+866   Home Progressive Passing Distance                       Home Touches     0.872839
+868   Home Progressive Passing Distance               Home Touches Mid 3rd     0.807823
+1027                       Home Touches               Home Touches Mid 3rd     0.928383
+1029                       Home Touches                       Home Carries     0.925662
+1030                       Home Touches  Home Carries Progressive Distance     0.863321
+1074               Home Touches Mid 3rd                       Home Carries     0.860422
+1116                       Home Carries  Home Carries Progressive Distance     0.886262
+1155                       Home Tackles                   Home Tackles Won     0.825743
+1190              Away Passes Completed                    Away Passes PCT     0.870495
+1191              Away Passes Completed            Away Progressive Passes     0.807584
+1192              Away Passes Completed  Away Progressive Passing Distance     0.853653
+1198              Away Passes Completed                       Away Touches     0.980819
+1200              Away Passes Completed               Away Touches Mid 3rd     0.922053
+1202              Away Passes Completed                       Away Carries     0.942251
+1203              Away Passes Completed  Away Carries Progressive Distance     0.870255
+1217                    Away Passes PCT                       Away Carries     0.819694
+1227            Away Progressive Passes                       Away Touches     0.823289
+1230            Away Progressive Passes               Away Touches Att 3rd     0.860364
+1240  Away Progressive Passing Distance                       Away Touches     0.866330
+1242  Away Progressive Passing Distance               Away Touches Mid 3rd     0.800795
+1299                       Away Touches               Away Touches Mid 3rd     0.934285
+1301                       Away Touches                       Away Carries     0.926603
+1302                       Away Touches  Away Carries Progressive Distance     0.853977
+1312               Away Touches Mid 3rd                       Away Carries     0.868695
+1320                       Away Carries  Away Carries Progressive Distance     0.879047
+1325                       Away Tackles                   Away Tackles Won     0.823104

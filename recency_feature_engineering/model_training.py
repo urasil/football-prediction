@@ -30,7 +30,7 @@ class RecencyModelTraining:
                 multi_class='multinomial',
                 solver='lbfgs',
                 max_iter=max_iter,
-                class_weight='balanced',
+                # class_weight='balanced',
                 # penalty='elasticnet',
                 # l1_ratio=0.0,
                 random_state=31

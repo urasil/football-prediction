@@ -34,5 +34,5 @@ neighbors_range = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33
 
 metrics_logistic = trainer.train_with_iterations(X_train, y_train, X_test, y_test, iterations)
 metrics_knn = trainer.train_and_evaluate_knn(X_train, y_train, X_test, y_test, neighbors_range)
-# trainer.plot_logistic_metrics(metrics_logistic, iterations)
+trainer.plot_logistic_metrics(metrics_logistic, iterations)
 trainer.plot_knn_metrics(metrics_knn, neighbors_range=neighbors_range)
