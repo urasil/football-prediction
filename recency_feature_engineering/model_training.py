@@ -4,6 +4,11 @@ from sklearn.neighbors import KNeighborsClassifier
 import joblib
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.svm import SVC
+import numpy as np
+from keras.models import Sequential
+from keras.layers import LSTM, Dense, Dropout
+from sklearn.preprocessing import StandardScaler
 
 class RecencyModelTraining:
     def __init__(self):
