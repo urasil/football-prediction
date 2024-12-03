@@ -6,3 +6,4 @@ matplotlib
 tensorflow
 joblib
 seaborn
+networkx
