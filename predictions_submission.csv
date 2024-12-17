@@ -1,11 +1,10 @@
-Date,HomeTeam,AwayTeam,FTR
-01-Feb-25,AFC Bournemouth,Liverpool,0
-01-Feb-25,Arsenal,Man City,0
-01-Feb-25,Brentford,Spurs,0
-01-Feb-25,Chelsea,West Ham,0
-01-Feb-25,Everton,Leicester City,0
-01-Feb-25,Ipswich Town,Southampton,0
-01-Feb-25,Man Utd,Crystal Palace,0
-01-Feb-25,Newcastle,Fulham,0
-01-Feb-25,Nottingham Forest,Brighton,0
-01-Feb-25,Wolves,Aston Villa,0
+HomeTeam,AwayTeam,FTR
+AFC Bournemouth,Liverpool,A
+Arsenal,Man City,H
+Brentford,Spurs,A
+Chelsea,West Ham,H
+Everton,Leicester City,H
+Man Utd,Crystal Palace,H
+Newcastle,Fulham,A
+Nottingham Forest,Brighton,A
+Wolves,Aston Villa,A
